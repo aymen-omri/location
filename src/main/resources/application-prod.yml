@@ -12,3 +12,7 @@ spring:
   sql:
     init:
       mode: always
+
+server:
+  max-http-header-size: 10MB
+
